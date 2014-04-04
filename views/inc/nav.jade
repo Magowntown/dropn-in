@@ -1,0 +1,23 @@
+nav.navbar.navbar-inverse.navbar-static-top(role='navigation')
+    .container
+      .navbar-header
+        button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navLinks')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a(href=".").navbar-brand #{siteTitle}
+      #navLinks.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          each link in [{display: "Home", link: "/"}, {display: "About Us", link: "/aboutUs"}, {display: "Contact", link: "/contact"}]
+            li(class=pageTitle==link.display?"active":"")
+              a(href=link.link) #{link.display}
+        ul.nav.navbar-nav.navbar-right
+          if session.logged
+            li
+              a(href="/signUp") Sign Up
+          else
+            li
+              a(href="/signUp") Sign Up
+            li
+              a(href="/login") Login

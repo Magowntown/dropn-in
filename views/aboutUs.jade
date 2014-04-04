@@ -1,0 +1,71 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-lg-8.col-lg-offset-2.well.well-sm
+        #aboutUsCarousel.carousel.slide(data-ride='carousel')
+          ol.carousel-indicators
+              li.active(data-target='#aboutUsCarousel', data-slide-to='0')
+              li(data-target='#aboutUsCarousel', data-slide-to='1')
+              li(data-target='#aboutUsCarousel', data-slide-to='2')
+          .carousel-inner
+            .item.active
+              img.img-responsive(alt='First slide', src='http://placekitten.com/800/400')
+              .carousel-caption
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis purus id nibh blandit ultricies.
+            .item
+              img.img-responsive(alt='Second slide', src='http://placekitten.com/800/401')
+              .carousel-caption
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis purus id nibh blandit ultricies.
+            .item
+              img.img-responsive(alt='Third slide', src='http://placekitten.com/800/398')
+              .carousel-caption
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis purus id nibh blandit ultricies.
+          a.left.carousel-control(href='#aboutUsCarousel', data-slide='prev')
+            span.glyphicon.glyphicon-chevron-left
+          a.right.carousel-control(href='#aboutUsCarousel', data-slide='next')
+            span.glyphicon.glyphicon-chevron-right
+  section
+    .row.spacer
+      .container
+        .col-lg-2.text-center
+          img.img-responsive.img-rounded(src="http://placekitten.com/350/200")
+          small Lorem ipsum dolor sit amet
+        .col-lg-10
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis purus id nibh blandit ultricies. 
+            | Pellentesque placerat ac lacus at cursus. Maecenas tempus fringilla risus ut tempus. Pellentesque enim 
+            | sem, aliquam at mi eget, porta accumsan augue. Vivamus nec adipiscing ligula. Aliquam augue sapien, volutpat 
+            | et turpis quis, ullamcorper consectetur massa. Sed a enim nec purus malesuada malesuada. Praesent non 
+            | ultricies augue, faucibus blandit quam. Nam enim felis, semper ac nisl eu, pellentesque porta nulla. 
+            | Maecenas sit amet est commodo, ornare dolor sit amet, tincidunt elit. Morbi vel orci nec nibh sodales 
+            | bibendum eu vitae augue. Integer sit amet nulla nisi. Vestibulum semper dolor in pretium accumsan.
+    .row.spacer
+      .container
+        .col-lg-2.text-center
+          img.img-responsive.img-rounded(src="http://placekitten.com/350/201")
+          small Lorem ipsum dolor sit amet
+        .col-lg-10
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis purus id nibh blandit ultricies. 
+            | Pellentesque placerat ac lacus at cursus. Maecenas tempus fringilla risus ut tempus. Pellentesque enim 
+            | sem, aliquam at mi eget, porta accumsan augue. Vivamus nec adipiscing ligula. Aliquam augue sapien, volutpat 
+            | et turpis quis, ullamcorper consectetur massa. Sed a enim nec purus malesuada malesuada. Praesent non 
+            | ultricies augue, faucibus blandit quam. Nam enim felis, semper ac nisl eu, pellentesque porta nulla. 
+            | Maecenas sit amet est commodo, ornare dolor sit amet, tincidunt elit. Morbi vel orci nec nibh sodales 
+            | bibendum eu vitae augue. Integer sit amet nulla nisi. Vestibulum semper dolor in pretium accumsan.
+    .row.spacer
+      .container
+        .col-lg-2.text-center
+          img.img-responsive.img-rounded(src="http://placekitten.com/350/202")
+          small Lorem ipsum dolor sit amet
+        .col-lg-10
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lobortis purus id nibh blandit ultricies. 
+            | Pellentesque placerat ac lacus at cursus. Maecenas tempus fringilla risus ut tempus. Pellentesque enim 
+            | sem, aliquam at mi eget, porta accumsan augue. Vivamus nec adipiscing ligula. Aliquam augue sapien, volutpat 
+            | et turpis quis, ullamcorper consectetur massa. Sed a enim nec purus malesuada malesuada. Praesent non 
+            | ultricies augue, faucibus blandit quam. Nam enim felis, semper ac nisl eu, pellentesque porta nulla. 
+            | Maecenas sit amet est commodo, ornare dolor sit amet, tincidunt elit. Morbi vel orci nec nibh sodales 
+            | bibendum eu vitae augue. Integer sit amet nulla nisi. Vestibulum semper dolor in pretium accumsan.

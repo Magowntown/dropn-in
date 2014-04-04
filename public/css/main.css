@@ -1,0 +1,31 @@
+.navbar {
+  margin-bottom: 0;
+}
+
+body {
+  padding-bottom: 55px;
+}
+
+.row.spacer {
+  padding: 5px 0;
+}
+
+.row.spacer p {
+  margin: 0;
+}
+
+.row.spacer + .row.spacer {
+  margin-top: 5px;
+}
+
+.row.spacer:nth-child(even) {
+  background-color: #F7F7F7;
+}
+
+.page-header {
+  text-shadow: 0 0 1px black;
+}
+
+#map-canvas {
+  height: 100%;
+}

@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  .container
+    .row
+      .col-lg-8.col-lg-offset-2
+        form#contactForm.form-horizontal(role='form')
+          .form-group
+            label.col-sm-2.control-label(for='fullName') Name
+            .col-sm-10
+              input.form-control(type='text', name='fullName', placeholder='Full Name')
+          .form-group
+            label.col-sm-2.control-label(for='email') Email
+            .col-sm-10
+              input.form-control(type='email', name='email', placeholder='Email')
+          .form-group
+            label.col-sm-2.control-label(for='message') Message
+            .col-sm-10
+              textarea.form-control(name='message', placeholder='Message')
+          .form-group
+            .col-sm-offset-2.col-sm-10
+              button.btn.btn-default(type='submit') Send

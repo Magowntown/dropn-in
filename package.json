@@ -1,0 +1,35 @@
+{
+  "name": "dropn-in",
+  "version": "0.0.0",
+  "description": "Social app for maps and stuff.",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "express": "~3.4.8",
+    "jade": "~1.1.5",
+    "mysql-model": "0.0.2",
+    "node-mysql": "^0.3.7",
+    "nodemailer": "^0.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amagown/dropn-in.git"
+  },
+  "keywords": [
+    "maps",
+    "social",
+    "app"
+  ],
+  "author": "jconstance",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amagown/dropn-in/issues"
+  },
+  "homepage": "https://github.com/amagown/dropn-in"
+}
